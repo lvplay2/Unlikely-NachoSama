@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/511434__theoter__dark-ambient-music.mp3-f308712c7615772244017a8f4e5fe542.mp3str"
+
+[deps]
+
+source_file="res://Assets/511434__theoter__dark-ambient-music.mp3"
+dest_files=[ "res://.import/511434__theoter__dark-ambient-music.mp3-f308712c7615772244017a8f4e5fe542.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

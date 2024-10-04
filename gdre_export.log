@@ -1,0 +1,39 @@
+GDRE Tools v0.7.0-prerelease.1
+Windows 10.0.19045, NVIDIA GeForce GTX 1650 SUPER, opengl3
+Extracted 232 files, no errors detected!
+WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:65)
+Script version 3.5.0 (rev 0xa7aad78) detected
+Saved project config project.godot.
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     12
+Failed scripts:                         0
+Imported resources for export session:  232
+Successfully converted:                 97
+Lossy:                                  1
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+The following files were converted from an import that was stored lossy.
+You may lose fidelity when re-importing these files upon loading the project.
+res://.import/Room.png-1131925e5ace6e6659a03ac58c9de6c3.s3tc.stex to res://Assets/Room.png
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.5.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

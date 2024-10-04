@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/loading.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Nacho.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 128
+font_data = ExtResource( 2 )
+
+[node name="Loading" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ -219.0 ]
+}
+
+[node name="Texto" type="Label" parent="."]
+margin_left = 1377.0
+margin_top = 928.0
+margin_right = 1874.0
+margin_bottom = 1049.0
+custom_fonts/font = SubResource( 1 )
+text = "Loading ..."

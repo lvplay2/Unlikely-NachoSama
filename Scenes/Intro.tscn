@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scripts/Intro.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Nacho.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 128
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 128
+font_data = ExtResource( 2 )
+
+[node name="Start" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Español" type="Button" parent="."]
+margin_left = 756.0
+margin_top = 398.0
+margin_right = 1139.0
+margin_bottom = 525.0
+custom_fonts/font = SubResource( 1 )
+text = "Español"
+flat = true
+
+[node name="English" type="Button" parent="."]
+margin_left = 754.0
+margin_top = 625.0
+margin_right = 1137.0
+margin_bottom = 752.0
+custom_fonts/font = SubResource( 2 )
+text = "English"
+flat = true
+
+[connection signal="pressed" from="Español" to="." method="_on_Espaol_pressed"]
+[connection signal="pressed" from="English" to="." method="_on_English_pressed"]

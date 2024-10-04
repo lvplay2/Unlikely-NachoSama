@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/251611__inplay__clown-horn.mp3-18c8ffdd7f277a22e6a624950b44d219.mp3str"
+
+[deps]
+
+source_file="res://Assets/251611__inplay__clown-horn.mp3"
+dest_files=[ "res://.import/251611__inplay__clown-horn.mp3-18c8ffdd7f277a22e6a624950b44d219.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
